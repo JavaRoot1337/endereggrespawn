@@ -1,0 +1,16 @@
+name: EnderEggRespawn
+version: ${project.version}
+main: ru.javaroot.glavnoe
+api-version: 1.19
+author: JavaRoot
+description: Плагин, позволяющий яйцу Дракона появляться при каждом убийстве Эндер-дракона
+commands:
+  eer:
+    description: Команда управления плагином EnderEggRespawn
+    usage: /eer reload - Перезагрузить конфигурацию
+    aliases: [endereggrespawn]
+    permission: endereggrespawn.reload
+permissions:
+  endereggrespawn.reload:
+    description: Позволяет перезагружать конфигурацию плагина
+    default: op
